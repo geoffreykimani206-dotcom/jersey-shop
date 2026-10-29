@@ -278,3 +278,22 @@ footer {
         padding: 40px 5%;
     }
 }
+
+/* New arrival badge */
+.product-card {
+    position: relative;
+}
+
+.new-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e63946;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 1;
+}
+
